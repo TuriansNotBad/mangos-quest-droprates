@@ -1,0 +1,1 @@
+# mangos-quest-droprates
