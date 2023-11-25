@@ -52,7 +52,7 @@ UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-33' WHERE  `entry`=2
 -- ------------------------------------------------------
 
 -- Canvas Scraps: q Carry Your Weight [24/43 0.56] was 80
-UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' AND `item`=4870 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE `item`=4870 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
 
 -- Durotar Tiger Fur: q Practical Prey [0.44 from wowhead, few people would kill these normally] was 80
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE  `entry`=3121 AND `item`=4892 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
