@@ -48,6 +48,29 @@ UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-33' WHERE  `entry`=3
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-33' WHERE  `entry`=2960 AND `item`=4803 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
 
 -- ------------------------------------------------------
+-- Durotar quests
+-- ------------------------------------------------------
+
+-- Canvas Scraps: q Carry Your Weight [24/43 0.56] was 80
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' AND `item`=4870 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- Durotar Tiger Fur: q Practical Prey [0.44 from wowhead, few people would kill these normally] was 80
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE  `entry`=3121 AND `item`=4892 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- q Finding the Antidote [12/39 0.31] was 40
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-30' WHERE  `entry` IN (3127,3226,5823) AND `item`=4886 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- ------------------------------------------------------
+-- Orgrimmar quests
+-- ------------------------------------------------------
+
+-- White Ravasaur Claw: q Bone-Bladed Weapons [16/49 0.33] was 80
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-33' WHERE  `item`=11477 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- Silithus Venom Sample: q An Earnest Proposition [no data, % from wowhead comments]
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-30' WHERE  `item`=22381 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- ------------------------------------------------------
 -- Barrens quests
 -- ------------------------------------------------------
 
