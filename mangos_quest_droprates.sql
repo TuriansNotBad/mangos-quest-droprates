@@ -123,6 +123,7 @@ UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=58
 -- ------------------------------------------------------
 -- Desolace quests
 -- ------------------------------------------------------
+
 -- Centaur Ear; Quest: Centaur Bounty
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=6067 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
 -- Crude Charm; Quest: Raid on the Kolkar
@@ -133,3 +134,12 @@ UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=62
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-10' WHERE  `item`=6441 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
 -- Hatefury Claw, Hatefury Horn; Quest: Reagents for Reclaimers Inc.
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE  `item` IN (6246,6247) AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- ------------------------------------------------------
+-- Dustwallow Marsh quests
+-- ------------------------------------------------------
+
+-- Mirefin Head; Quest: Hungry!
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=5847 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Highperch Venom Sac; Quest: Highperch Venom
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-25' WHERE  `item`=5809 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
