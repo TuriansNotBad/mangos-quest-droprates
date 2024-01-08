@@ -106,3 +106,30 @@ UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-30' WHERE  `item` IN
 -- there are 2 named raptors that drop this at 80% still in db
 UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-35' WHERE  `entry`=3256 AND `item`=5055 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
 
+-- ------------------------------------------------------
+-- Thousand Needles quests
+-- ------------------------------------------------------
+
+-- Quest: Parts of the Swarm
+-- Silithid Heart
+-- Silithid Talon
+-- Intact Silithid Carapace
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE  `item` IN (5853,5854,5855) AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Indurium Flake; Quest: Parts of the Swarm
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-25' WHERE  `item`=5797 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Speck of Dream Dust; Quest: Dream Dust in the Swamp
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=5803 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+
+-- ------------------------------------------------------
+-- Desolace quests
+-- ------------------------------------------------------
+-- Centaur Ear; Quest: Centaur Bounty
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=6067 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Crude Charm; Quest: Raid on the Kolkar
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-33' WHERE  `item`=6079 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Scorpashi Venom; Quest: Reagents for Reclaimers Inc.
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-20' WHERE  `item`=6248 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Shadowstalker Scalp; Quest: The Corrupter
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-10' WHERE  `item`=6441 AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
+-- Hatefury Claw, Hatefury Horn; Quest: Reagents for Reclaimers Inc.
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-50' WHERE  `item` IN (6246,6247) AND `groupid`=0 AND `patch_min`=0 AND `patch_max`=10;
